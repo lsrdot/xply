@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#5D3FD3" />
+  
+  <!-- Trophy -->
+  <g transform="translate(400, 250)">
+    <!-- Trophy Base -->
+    <ellipse cx="0" cy="100" rx="80" ry="30" fill="#00BFFF" />
+    
+    <!-- Trophy Cup -->
+    <path d="M-40,100 L-40,0 C-40,-20 -60,-40 -60,-60 C-60,-90 -30,-90 0,-90 C30,-90 60,-90 60,-60 C60,-40 40,-20 40,0 L40,100 Z" fill="#FFD700" />
+    
+    <!-- Trophy Handle -->
+    <path d="M-60,-60 L-90,-60 C-90,-30 -70,-30 -60,-40 Z" fill="#FFD700" />
+    <path d="M60,-60 L90,-60 C90,-30 70,-30 60,-40 Z" fill="#FFD700" />
+  </g>
+  
+  <!-- Person -->
+  <g transform="translate(200, 300)">
+    <!-- Body -->
+    <rect x="-30" y="-100" width="60" height="150" fill="#FFFFFF" />
+    
+    <!-- Head -->
+    <circle cx="0" cy="-130" r="40" fill="#FFFFFF" />
+    
+    <!-- Arms -->
+    <rect x="30" y="-80" width="70" height="20" fill="#FFFFFF" transform="rotate(20)" />
+    
+    <!-- Platform -->
+    <rect x="-50" y="50" width="100" height="20" fill="#00BFFF" />
+  </g>
+  
+  <!-- Icons -->
+  <g>
+    <!-- Dollar Icon -->
+    <circle cx="150" cy="200" r="30" fill="#00BFFF" />
+    <text x="150" y="210" font-size="40" text-anchor="middle" fill="#FFFFFF">$</text>
+    
+    <!-- Target Icon -->
+    <circle cx="650" cy="150" r="40" fill="none" stroke="#FFFFFF" stroke-width="5" />
+    <circle cx="650" cy="150" r="30" fill="none" stroke="#FFFFFF" stroke-width="5" />
+    <circle cx="650" cy="150" r="20" fill="none" stroke="#FFFFFF" stroke-width="5" />
+    <circle cx="650" cy="150" r="10" fill="#FFFFFF" />
+    
+    <!-- Gear Icon -->
+    <circle cx="550" cy="400" r="25" fill="#00BFFF" />
+    <circle cx="550" cy="400" r="10" fill="#5D3FD3" />
+    <g transform="translate(550, 400)">
+      <rect x="-5" y="-30" width="10" height="15" fill="#00BFFF" />
+      <rect x="-5" y="15" width="10" height="15" fill="#00BFFF" />
+      <rect x="-30" y="-5" width="15" height="10" fill="#00BFFF" />
+      <rect x="15" y="-5" width="15" height="10" fill="#00BFFF" />
+      <rect x="-25" y="-25" width="15" height="10" fill="#00BFFF" transform="rotate(45)" />
+      <rect x="15" y="15" width="15" height="10" fill="#00BFFF" transform="rotate(45)" />
+      <rect x="-25" y="15" width="15" height="10" fill="#00BFFF" transform="rotate(-45)" />
+      <rect x="15" y="-25" width="15" height="10" fill="#00BFFF" transform="rotate(-45)" />
+    </g>
+  </g>
+  
+  <!-- XPly Logo -->
+  <g transform="translate(650, 500)">
+    <text x="0" y="0" font-family="Arial" font-size="60" font-weight="bold" text-anchor="middle" fill="#FFFFFF">XP</text>
+    <text x="40" y="0" font-family="Arial" font-size="40" font-style="italic" text-anchor="middle" fill="#FFFFFF">ly</text>
+  </g>
+</svg>
