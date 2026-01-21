@@ -1,6 +1,5 @@
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
 
 THIS PERSON DOES NOT EXIST. Disponível em: <https://this-person-does-not-exist.com/en>. Acesso em: 7 mar. 2025.
 
